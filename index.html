@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TentangTernak — Blog Peternakan</title>
+  <meta name="description" content="Informasi terkait dunia peternakan, isu, fakta, tips, dan hack terkait ternak." />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">🐔 TentangTernak</a>
+      <nav class="nav">
+        <a href="#posts">Artikel</a>
+        <a href="#about">Tentang</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <div class="controls">
+        <button id="themeToggle" aria-label="Ganti tema">🌙</button>
+        <button class="menu-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Selamat datang di <span class="highlight">TentangTernak</span></h1>
+        <p class="lead">Informasi seputar dunia peternakan: isu, fakta, tips, dan hack yang berguna bagi peternak modern.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#posts">Baca Artikel</a>
+          <a class="btn btn-outline" href="#contact">Hubungi Kami</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="posts" class="posts container">
+      <h2>Artikel Terbaru</h2>
+      <div class="post-grid">
+        <article class="post-card">
+          <a href="#" class="post-thumb">
+            <img src="https://images.unsplash.com/photo-1589923188900-0f6f9b8a84b8?w=800&q=60&auto=format&fit=crop" alt="Ayam sehat di kandang">
+          </a>
+          <div class="post-body">
+            <a class="post-tag" href="#">Tips</a>
+            <h3 class="post-title"><a href="#">5 Cara Menjaga Kesehatan Ayam Petelur</a></h3>
+            <p class="post-excerpt">Panduan sederhana untuk memastikan ayam tetap sehat dan produktif sepanjang tahun.</p>
+            <div class="post-meta">5 Nov 2025 · 5 min baca</div>
+          </div>
+        </article>
+
+        <article class="post-card">
+          <a href="#" class="post-thumb">
+            <img src="https://images.unsplash.com/photo-1600431521340-491eca880813?w=800&q=60&auto=format&fit=crop" alt="Sapi di padang rumput">
+          </a>
+          <div class="post-body">
+            <a class="post-tag" href="#">Fakta</a>
+            <h3 class="post-title"><a href="#">Fakta Menarik Tentang Pola Makan Sapi</a></h3>
+            <p class="post-excerpt">Tahukah kamu, sapi bisa mengenali rasa lebih dari yang kita kira? Simak selengkapnya.</p>
+            <div class="post-meta">1 Nov 2025 · 4 min baca</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>Tentang Kami</h2>
+      <div class="about-grid">
+        <div class="avatar">
+          <img src="https://images.unsplash.com/photo-1551698618-1c02d78a5df4?w=600&q=60&auto=format&fit=crop" alt="Foto ayam di kandang">
+        </div>
+        <div>
+          <p><strong>TentangTernak</strong> adalah blog yang menghadirkan informasi terbaru dan berguna seputar dunia peternakan. Mulai dari isu-isu hangat, fakta unik, hingga tips praktis untuk peternak pemula maupun profesional.</p>
+          <p>Tujuan kami adalah membantu peternak Indonesia menjadi lebih cerdas, efisien, dan ramah lingkungan 🌱.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Kontak</h2>
+      <p>Ingin berbagi pengalaman atau bertanya? Isi formulir di bawah ini 👇</p>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+        <label>
+          Nama
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Pesan
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> TentangTernak — Blog Peternakan</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
