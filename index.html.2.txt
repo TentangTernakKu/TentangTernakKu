@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentingnya Manajemen Pencahayaan pada Ayam Fase Grower</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2e6; /* hijau muda nuansa alam */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50; /* hijau gelap */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #f7fff7; /* sedikit putih */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        h1 {
+            margin-top: 0;
+            color: #2e7d32;
+        }
+        h2 {
+            color: #2e7d32;
+        }
+        p {
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pentingnya Manajemen Pencahayaan pada Ayam Fase Grower</h1>
+    </header>
+
+    <main>
+        <!-- Gambar bisa dikirim kemudian, tinggal ganti src -->
+        <img src="gambar-ayam.jpg" alt="Ayam Fase Grower">
+
+        <p>Dalam dunia peternakan ayam, banyak faktor yang memengaruhi pertumbuhan dan produktivitas ternak, salah satunya adalah manajemen pencahayaan. Seringkali, perhatian peternak lebih terfokus pada pemberian pakan yang tepat, padahal pencahayaan juga memainkan peran vital, terutama pada fase grower. Pada fase ini, ayam sedang mengalami pertumbuhan pesat, sehingga pencahayaan yang tepat sangat berpengaruh terhadap pertumbuhan seragam dan kesehatan keseluruhan.</p>
+
+        <h2>Mengapa Pencahayaan Penting di Fase Grower?</h2>
+        <p>Manajemen pencahayaan yang baik tidak hanya membantu ayam untuk mengurangi stres dan agresivitas, tetapi juga berperan dalam mengontrol kematangan seksual ayam. Dengan pengaturan cahaya yang optimal, ayam dapat tumbuh lebih seragam sehingga ketika memasuki fase laying, performa produksi telur dapat lebih stabil dan maksimal.</p>
+
+        <p>Ayam yang mendapatkan pencahayaan yang tidak sesuai sering mengalami gangguan pertumbuhan, agresi yang tinggi, atau bahkan kematangan seksual yang terlalu cepat, yang berpotensi menurunkan kualitas dan jumlah produksi telur. Oleh karena itu, pencahayaan bukan sekadar faktor tambahan, melainkan komponen krusial dalam manajemen peternakan modern.</p>
+
+        <h2>Strategi Manajemen Pencahayaan yang Efektif</h2>
+        <ul>
+            <li><strong>Durasi Cahaya:</strong> Menentukan jumlah jam cahaya per hari yang sesuai dengan umur ayam untuk merangsang pertumbuhan dan mengatur siklus biologis.</li>
+            <li><strong>Intensitas Cahaya:</strong> Cahaya yang terlalu terang dapat meningkatkan agresivitas, sementara cahaya redup membantu ayam lebih tenang dan nyaman.</li>
+            <li><strong>Spektrum Cahaya:</strong> Menggunakan lampu dengan spektrum tertentu, seperti lampu LED yang mendukung pertumbuhan dan kesehatan ayam.</li>
+            <li><strong>Periode Transisi:</strong> Menyesuaikan peningkatan atau pengurangan cahaya secara bertahap agar ayam tidak mengalami stres akibat perubahan mendadak.</li>
+        </ul>
+
+        <h2>Manfaat Jangka Panjang</h2>
+        <p>Manajemen pencahayaan yang tepat tidak hanya berdampak pada fase grower, tetapi juga berpengaruh pada fase produksi. Ayam yang tumbuh seragam dengan kondisi fisik dan mental yang optimal cenderung menghasilkan telur berkualitas lebih baik, lebih konsisten, dan memiliki risiko penyakit yang lebih rendah. Selain itu, peternak dapat memaksimalkan efisiensi pakan karena ayam dalam kondisi sehat dan tidak stres akan memanfaatkan pakan dengan lebih efektif.</p>
+
+        <h2>Kesimpulan</h2>
+        <p>Pencahayaan merupakan salah satu faktor kunci dalam manajemen peternakan modern. Dengan strategi yang tepat, peternak tidak hanya dapat mendukung pertumbuhan ayam secara optimal, tetapi juga meningkatkan produktivitas dan kesehatan ternak pada fase berikutnya. Oleh karena itu, selain pakan, pencahayaan layak menjadi perhatian utama bagi siapa pun yang ingin membangun usaha peternakan yang berkelanjutan dan menguntungkan.</p>
+    </main>
+
+    <footer>
+        &copy; 2025 TentangTernak
+    </footer>
+</body>
+</html>
